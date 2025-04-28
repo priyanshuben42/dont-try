@@ -1,0 +1,28 @@
+@import url(css/header.css);
+@import url(css/home-section.css);
+@import url(css/about-section.css);
+@import url(css/services.css);
+
+:root{
+--primary:#ffffff;
+--text-color:#000000;
+--background-color:#007bff;
+--links:#4f46e5;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  width:100%;
+  min-height: 100vh;
+  height: 100svh;
+}
+
+
+
+

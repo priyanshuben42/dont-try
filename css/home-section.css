@@ -1,0 +1,100 @@
+.home_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 4rem 1rem;
+  background: linear-gradient(135deg, #f8f9fa, #e0e7ff);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.home_section p {
+  font-size: clamp(1rem, 2vw, 1.5rem);
+  color: #333;
+  margin-bottom: 2rem;
+  max-width: 700px;
+}
+
+  .choose_file-btn {
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color:var(--background-color);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+
+  .choose_file-btn input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+
+  .choose_file-btn i {
+    margin-right: 8px;
+  }
+
+.upload_links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.upload_links a {
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  color: #4f46e5;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.upload_links a:hover {
+  transform: scale(1.2);
+  color: #1d4ed8;
+}
+
+.how_to_convert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+  gap: 1rem;
+}
+
+.step {
+  font-weight: 600;
+  border: 1px solid #e5e7eb;
+  padding: 1.5rem;
+  font-size: 1rem;
+  flex: 1 1 250px;
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.06);
+  text-align: left;
+}
+
+.step p {
+  font-size: clamp(0.875rem, 1vw, 1rem);
+  color: #333;
+  margin: 0.5rem 0 0;
+}
+
+.step span {
+  display: inline-block;
+  background-color:var(--background-color);
+  color: white;
+  border-radius: 50%;
+  width: 28px;
+  height: 28px;
+  text-align: center;
+  line-height: 28px;
+  margin-right: 0.75rem;
+  font-weight: bold;
+}
